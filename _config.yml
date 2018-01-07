@@ -13,18 +13,18 @@ url: "http://www.italiaafuoco.info"
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Italia a Fuoco
+title: Politicamente Corretto
 
 # Short description of your site
-description: Un progetto per raccogliere e diffondere informazioni sugli incendi in Italia
+description: Un progetto per raccogliere le promesse dei politici italiani e capire se si trasformano in fatti
 
 # --- Navigation bar options --- #
 # List of links in the navigation bar
 navbar-links:
-  Segnala: "http://enketo.ona.io/x/#YVUh"
-  Mappe: "mappe/"
+  Segnala: "https://enketo.ona.io/x/#pYFo"
   Opendata: "opendata/"
-  FOIA: "foia/"
+#  Mappe: "mappe/"
+#  FOIA: "foia/"
 #  Richieste:
 #    - Fabbisogni: "fabbisogni/"
 #    - Cerco Lavoro: "cerco_lavoro/"
@@ -63,19 +63,19 @@ avatar: /images/IMG_5039.PNG
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: ItaliaAFuoco
-  email: "emergenzehack@gmail.com"
-  facebook: groups/1985622574797139/  # eg. daattali
-  github: emergenzeHack/italiaafuoco    # eg. daattali
-  twitter: italiaafuoco   # eg. daattali
+  name: Politicamente Corretto
+  email: #"emergenzehack@gmail.com"
+  facebook: # eg. daattali
+  github: https://github.com/HackForItaly/politicamentecorretto    # eg. daattali
+  twitter: # italiaafuoco   # eg. daattali
   linkedin:   # eg. daattali
   xing:       # eg. daattali
   stackoverflow:   # eg. "3943160/daattali"
   instagram: # eg. daattali
   youtube: # eg. user/daattali or channel/daattali
   rss:
-  telegram: https://t.me/italiaafuoco
-  medium: https://medium.com/open-data-stories/un-servizio-di-informazione-per-gli-incendi-2d8c2d3cc02b
+  telegram: # https://t.me/italiaafuoco
+  medium: # https://medium.com/open-data-stories/un-servizio-di-informazione-per-gli-incendi-2d8c2d3cc02b
   archiveorg:
   messenger:
 
