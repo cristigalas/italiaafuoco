@@ -76,8 +76,8 @@ author:
   rss:
   telegram: https://t.me/politicamentecorretto
   medium: # https://medium.com/open-data-stories/un-servizio-di-informazione-per-gli-incendi-2d8c2d3cc02b
-  archiveorg:
-  messenger:
+  archiveorg: #
+  messenger: #
 
 # Select which links to show in the footer
 footer-links-active:
