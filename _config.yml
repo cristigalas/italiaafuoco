@@ -83,7 +83,7 @@ footer-links-active:
   androidapp: false
   rss: false
   facebook: false
-  email: false
+  email: true
   twitter: true
   github: true
   linkedin: false
