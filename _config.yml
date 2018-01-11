@@ -66,7 +66,7 @@ author:
   name: Politicamente Corretto
   email: "politicamentecorretto1@gmail.com"
   facebook: # eg. daattali
-  github: https://github.com/HackForItaly/politicamentecorretto    # eg. daattali
+  github: /HackForItaly/politicamentecorretto    # eg. daattali
   twitter: politicacorr   # eg. daattali
   linkedin:   # eg. daattali
   xing:       # eg. daattali
@@ -111,10 +111,10 @@ share-links-active:
 # --- Misc --- #
 
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: "italiaafuoco"
+disqus: "politicamentecorretto"
 
 # Fill in your Google Analytics ID to track your website using GA
-google_analytics: "UA-47474515-4"
+google_analytics: "UA-47474515-7"
 
 jekyll-crosseverything_to_medium:
   enabled: false
