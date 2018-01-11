@@ -36,10 +36,9 @@ navbar-links:
 #  Raccolte:
 #    - Raccolte Fondi: "fondi/"
 #    - Acquisti Solidali: "acquistisolidali/"
-  Aggiornamenti:
 #    - News: "news/"
 #    - Eventi: "eventi/"
-     - Blog: "post/"
+  Blog: "post/"
 #    - Storie: "storie/"
 #  Utilità:
 #    - Mappe: "mappe/"
