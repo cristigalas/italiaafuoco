@@ -74,7 +74,7 @@ author:
   instagram: # eg. daattali
   youtube: # eg. user/daattali or channel/daattali
   rss:
-  telegram: # https://t.me/italiaafuoco
+  telegram: https://t.me/politicamentecorretto
   medium: # https://medium.com/open-data-stories/un-servizio-di-informazione-per-gli-incendi-2d8c2d3cc02b
   archiveorg:
   messenger:
@@ -83,7 +83,7 @@ author:
 footer-links-active:
   androidapp: false
   rss: false
-  facebook: true
+  facebook: false
   email: false
   twitter: true
   github: true
