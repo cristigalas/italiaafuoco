@@ -5,7 +5,8 @@ permalink: /opendata/
 ---
 
 
-In tabella trovi tutti i riferimenti ai contenuti e ai dati raccolti o prodotti da questo progetto con la loro licenza di riuso.
+In tabella troverete tutti i riferimenti ai contenuti e ai dati raccolti o prodotti da questo progetto con la loro licenza di riuso.
+La sezione è in aggiornamento.
 
 {: .table .table-striped #opendata}
 Nome            |Dataset         |Licenza         |Link Licenza    |Fonte           |Formato         |Utilizzo        |Note
