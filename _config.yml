@@ -218,7 +218,7 @@ prose:
 
 collections:
   storie:
-    output: true
+    output: false
 
 page_gen-dirs: true # uncomment, if you prefer to generate named folders
 page_gen:
