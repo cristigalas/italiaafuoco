@@ -11,7 +11,7 @@ Questo è un progetto non profit, organizzato da attivisti civici italiani.
 
 È nato per condividere informazioni utili e verificate sulle promesse dei politici italiani.
 
-Il progetto si pone come scopo quello di aggregare e non disperdere contenuti utili a tutti provenienti da fonti di varia natura (ufficiali e non) al fine creare valore per tutti.
+Il progetto si pone come scopo quello di aggregare e non disperdere contenuti utili a tutti provenienti da fonti di varia natura (ufficiali e non) al fine creare valore per tutti. L'intento è quello di rendere più facile il voto degli italiani e tenere traccia allo stesso tempo di quello che è stato detto nelle campagne elettorali.
 
 Il progetto non vuole in alcun modo sostituirsi a fonti istituzionali, ma fornire un'alternativa indipendente e apolitica sulle promesse legate alle campagne elettorali italiane.
 
