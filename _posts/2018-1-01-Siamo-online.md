@@ -14,7 +14,7 @@ Quante volte vi siete detti "ecco un'altra promessa da campagna elettorale?" o q
 
 Il progetto è creato in forma partecipata, chiunque può collaborare seguendo le indicazioni riportate in [questa pagina](https://www.unapromessa.it/collabora/).
 
-L’idea di base è quella di raccogliere dati utili dalle segnalazioni che arriveranno e rendere i dati disponibili per riuso ridistribuendoli con licenza [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+L’idea alla base è quella di raccogliere i dati provenienti dalle segnalazioni per renderli disponibili per riuso ridistribuendoli con licenza [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 Aiutaci a far conoscere questa iniziativa e contribuisci anche tu. In fondo alla pagina trovi i nostri contatti social.
 
