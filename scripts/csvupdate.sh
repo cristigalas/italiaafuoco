@@ -1,14 +1,14 @@
 #! /bin/bash
 
-cd italiaafuoco_segnalazioni
+cd politicamentecorretto
 git clean -fxd
 git reset --hard HEAD
 git pull
 cd ..
 
-python italiaafuoco_segnalazioni/scripts/github2CSV.py italiaafuoco_segnalazioni/_data/issues.csv italiaafuoco_segnalazioni/_data/issuesjson.json italiaafuoco_segnalazioni/_data/issuesgeojson.json
+python politicamentecorretto/scripts/github2CSV.py politicamentecorretto/_data/issues.csv politicamentecorretto/_data/issuesjson.json politicamentecorretto/_data/issuesgeojson.json
 
-cd italiaafuoco_segnalazioni
+cd politicamentecorretto
 git add _data
 #git add vittime.md
 git commit -m "auto CSV update $(date -Iseconds)"
