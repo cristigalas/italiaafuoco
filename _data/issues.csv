@@ -1,0 +1,7 @@
+url,id,updated_at,created_at,title,lat,lon,labels,milestone,image,data,body,state
+https://github.com/HackForItaly/politicamentecorretto_data/issues/9,288258496,2018-01-13 11:18:07,2018-01-12 22:00:06,24026927,,,"[""Accettato"", ""form""]",,,"{""Nome"": ""Marco Bianchi"", ""Nome fonte"": ""Fonte"", ""data"": ""12/01/2018"", ""dichiarazione"": ""Una fonte"", ""urlfonte"": ""http://fonte.it""}","<pre><yamldata>Nome: 'Marco Bianchi'
+data: 12/01/2018
+Nome fonte: 'Fonte'
+urlfonte: 'http://fonte.it'
+dichiarazione: 'Una fonte'
+</yamldata></pre>",closed
