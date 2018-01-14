@@ -41,11 +41,8 @@ navbar-links:
   Blog: "post/"
   Collabora: "collabora/"
 #    - Storie: "storie/"
-#  Utilità:
-#    - Mappe: "mappe/"
-#    - Dashboard: "dashboard/"
-#    - Opendata: "opendata/"
-#    - Link e contatti utili: "link_utili/"
+  Utilità:
+    - Link e contatti utili: "link_utili/"
   Il Progetto:
     - About: "about/"
 #   - Contribuisci: 'https://github.com/emergenzeHack/terremotocentro/wiki" target="_blank'
