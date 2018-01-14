@@ -39,13 +39,12 @@ navbar-links:
 #    - News: "news/"
 #    - Eventi: "eventi/"
   Blog: "post/"
-  Collabora: "collabora/"
 #    - Storie: "storie/"
   Utilità:
     - Link utili: "link_utili/"
   Il Progetto:
     - About: "about/"
-#   - Contribuisci: 'https://github.com/emergenzeHack/terremotocentro/wiki" target="_blank'
+    - Collabora: "collabora/"
     - Press: "press/"
 #   - Canali di Comunicazione: "canali/"
 
