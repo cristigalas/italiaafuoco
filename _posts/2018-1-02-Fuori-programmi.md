@@ -12,4 +12,6 @@ Il tema dei programmi non è una questione da poco. Oggi i programmi politici no
 
 Ci rivolgiamo quindi a tutti i candidati perchè siano visibili gli impegni online e si possano tracciare quelle che sono le "promesse" che saranno fatte agli elettori.
 
-E' possibile divulgare l'immagine qui riportata per sensibilizzare all'importanza della pubblicazione online dei programmi politici. L'immagine in alta definizione è scaricabile [qui](https://raw.githubusercontent.com/HackForItaly/politicamentecorretto/master/images/fuoriprogrammi.png)
+E' possibile divulgare l'immagine qui riportata per sensibilizzare all'importanza della pubblicazione online dei programmi politici. L'immagine in alta definizione è scaricabile [qui](https://raw.githubusercontent.com/HackForItaly/politicamentecorretto/master/images/fuoriprogrammi.png).
+
+Se invece avete dei programmi politici da segnalarci (solo se sono programmi politici ufficialmente pubblicati online) potete seguire quanto vi diaciamo alla pagina [collabora](https://www.unapromessa.it/collabora/)
