@@ -25,9 +25,9 @@ navbar-links:
   Opendata: "opendata/"
 #  Mappe: "mappe/"
 #  FOIA: "foia/"
-#  Richieste:
-#    - Fabbisogni: "fabbisogni/"
-#    - Cerco Lavoro: "cerco_lavoro/"
+  Elezioni:
+     - Nazionali 2018: "nazionali_2018/"
+     - Regionali 2018: "regionali_2018/"
 #  Offerte:
 #    - Risorse: "risorse-disponibili/"
 #    - Alloggi: "alloggi/"
