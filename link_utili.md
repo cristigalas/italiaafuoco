@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Link e Contatti Utili
+title: Link Utili
 permalink: /link_utili/
 ---
 
