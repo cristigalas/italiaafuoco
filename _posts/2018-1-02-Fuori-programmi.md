@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dove sono programmi delle elezioni Nazionali 2018?
+title: Dove sono i programmi delle elezioni nazionali 2018?
 categories: blog
 ---
 
@@ -14,4 +14,4 @@ Ci rivolgiamo quindi a tutti i candidati perchè rendano visibili online i loro 
 
 E' possibile divulgare l'immagine qui riportata per sensibilizzare all'importanza della pubblicazione online delle promesse e dei programmi politici. L'immagine in alta definizione è scaricabile [qui](https://raw.githubusercontent.com/HackForItaly/politicamentecorretto/master/images/fuoriprogrammi.png).
 
-Se invece avete dei programmi politici da segnalarci (solo se sono programmi politici ufficialmente pubblicati online) potete seguire quanto vi diciamo alla pagina [collabora](https://www.unapromessa.it/collabora/)
+Se invece avete dei programmi politici da segnalarci (solo se sono programmi politici ufficialmente pubblicati online) potete seguire quanto vi diciamo alla pagina [collabora](https://www.unapromessa.it/collabora/).
