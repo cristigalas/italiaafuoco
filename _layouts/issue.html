@@ -13,8 +13,9 @@ layout: base
         <div class="row"> <div class="col-md-12">{% if page.state == "closed" %}<strike>{% endif %}<h2>{{page.issue.title}}</h2>{% if page.state == "closed" %}</strike>{% endif %} </div> </div>
   <div class="row"> <div class="col-md-2">Stato della segnalazione:</div> <div class="col-md-10"> {{page.state}}</div> </div>
   <div class="row"> <div class="col-md-2">Promessa di:</div> <div class="col-md-10"> {{page.issue.data.Nome}}</div> </div>
-  <div class="row"> <div class="col-md-2">Dichiarazione:</div> <div class="col-md-10"> {{page.issue.data.dichiarazione | markdownify}}</div> </div>
-  <div class="row"> <div class="col-md-2">Fonte:</div> <div class="col-md-10"> {{page.issue.data.Nome\ fonte}}</div> </div>
+{% assign dichiarazione = page.issue.data.dichiarazione | replace: '""', '"' | replace: "''", "'" %}
+  <div class="row"> <div class="col-md-2">Dichiarazione:</div> <div class="col-md-10"> {{dichiarazione | markdownify}}</div> </div>
+  <div class="row"> <div class="col-md-2">Fonte:</div> <div class="col-md-10"> {{page.issue.data["Nome fonte"]}}</div> </div>
 
   {% if page.issue.data.data != blank %}
   <div class="row"> <div class="col-md-2">Data Dichiarazione:</div> <div class="col-md-10"> {{page.issue.data.data}}</div> </div>
