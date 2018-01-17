@@ -26,8 +26,8 @@ navbar-links:
 #  Mappe: "mappe/"
 #  FOIA: "foia/"
   Elezioni:
-     - Politiche 2018: "eventi/politiche_2018/"
-     - Regionali 2018: "eventi/regionali_2018/"
+     - Politiche 2018: "politiche_2018/"
+     - Regionali 2018: "regionali_2018/"
 #  Offerte:
 #    - Risorse: "risorse-disponibili/"
 #    - Alloggi: "alloggi/"
@@ -216,8 +216,6 @@ collections:
   eventi:
     output: true
     layout: page
-    permalink: /:collection/:permalink
-
 
 page_gen-dirs: true # uncomment, if you prefer to generate named folders
 page_gen:
