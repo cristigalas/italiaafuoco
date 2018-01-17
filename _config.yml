@@ -26,8 +26,8 @@ navbar-links:
 #  Mappe: "mappe/"
 #  FOIA: "foia/"
   Elezioni:
-     - Nazionali 2018: "nazionali_2018/"
-     - Regionali 2018: "regionali_2018/"
+     - Politiche 2018: "eventi/politiche_2018/"
+     - Regionali 2018: "eventi/regionali_2018/"
 #  Offerte:
 #    - Risorse: "risorse-disponibili/"
 #    - Alloggi: "alloggi/"
@@ -213,8 +213,11 @@ prose:
           help: "Check to publish post, uncheck to hide."
 
 collections:
-  storie:
-    output: false
+  eventi:
+    output: true
+    layout: page
+    permalink: /:collection/:permalink
+
 
 page_gen-dirs: true # uncomment, if you prefer to generate named folders
 page_gen:
