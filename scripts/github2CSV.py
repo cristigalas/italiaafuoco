@@ -94,7 +94,7 @@ for issue in issues:
         try:
             yamldataRaw=tree.xpath("//yamldata/text()")
             yamldataStr=yamldataRaw[0] if len(yamldataRaw) > 0 else None
-            data=yaml.load(yamldataStr)
+            data=yaml.load(yamldataStr.replace('\r\n', '\n'))
         except:
             pass
     except:
