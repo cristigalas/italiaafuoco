@@ -75,7 +75,7 @@ if gjwr:
     gjwr.write('{ "type": "FeatureCollection", "features": [')
 
 for issue in issues:
-    labels = [l.name for l in issue.labels]
+    labels = [unicode(l.name) for l in issue.labels]
     data={}
     lat=None
     lon=None
@@ -117,7 +117,7 @@ for issue in issues:
     if title is not None:
         title=title.encode('utf-8')
 
-    labels=unicode(labels)
+    #labels=unicode(labels)
 
     csvwriter.writerow((issue.html_url,issue.id,issue.updated_at,issue.created_at,title,lat,lon,labels,issue.milestone,image,json.dumps(data,sort_keys=True),issue.body.encode('utf-8'), issue.state))
     
