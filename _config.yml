@@ -223,6 +223,10 @@ page_gen:
     template: issue
     name: number
     dir: issues
+  - data: issuesjson
+    template: promessa
+    name: number
+    dir: promessa
 
 gems:
   - jekyll-paginate
