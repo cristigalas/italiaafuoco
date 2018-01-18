@@ -3,8 +3,8 @@ layout: base
 googlefonts:
   - "Bilbo Swash Caps"
   - "Alfa Slab One"
-  - "Pompiere"
-  - "Farsan"
+  - "Cormorant Garamond:500"
+  - "Quattrocento"
 ---
 
 {% include header.html type="issue" %}
@@ -20,7 +20,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p.dichiarazione {
-        font-family: 'Farsan';
+        font-family: 'Cormorant Garamond';
         font-size: 24pt;
 }
 
@@ -48,7 +48,7 @@ p.dichiarazione {
         <div class="col-md-10">
                 <div class="row">
                         <div class="panel panel-default">
-                                <div class="panel panel-heading"><h2>{{page.issue.data.Nome}} ({{page.issue.data.data}}):</h2></div>
+                                <div class="panel panel-heading"><h2>{{page.issue.data.Nome}} ({{page.issue.data.data}})</h2></div>
                                 <div class="panel panel-body"><p class="dichiarazione">{{dichiarazione}}</p></div>
                                 <div class="panel panel-footer">
                                         <div class="row"> <div class="col-md-2">Fonte:</div> <div class="col-md-10"> {{page.issue.data["Nome fonte"]}}</div> </div>
