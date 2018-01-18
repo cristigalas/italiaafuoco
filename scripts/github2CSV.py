@@ -75,7 +75,7 @@ if gjwr:
     gjwr.write('{ "type": "FeatureCollection", "features": [')
 
 for issue in issues:
-    labels = json.dumps([l.name for l in issue.labels])
+    labels = [l.name for l in issue.labels]
     data={}
     lat=None
     lon=None
@@ -117,15 +117,15 @@ for issue in issues:
     if title is not None:
         title=title.encode('utf-8')
 
-    labels=labels.encode('utf-8')
+    labels=unicode(labels)
 
     csvwriter.writerow((issue.html_url,issue.id,issue.updated_at,issue.created_at,title,lat,lon,labels,issue.milestone,image,json.dumps(data,sort_keys=True),issue.body.encode('utf-8'), issue.state))
     
     if jwr:
-        jwr.write(json.dumps({"title":issue.title,"number":issue.number,"state":issue.state,"issue":{"url":issue.html_url,"id":issue.id,"updated_at":issue.updated_at.isoformat()+"+00:00","created_at":issue.created_at.isoformat()+"+00:00","title":title,"lat":lat,"lon":lon,"labels":eval(labels) if labels else None,"milestone":issue.milestone.title if issue.milestone else None,"image":image,"data":data,"body":issue.body.encode('utf-8')}}, sort_keys=True)+",\n")
+        jwr.write(json.dumps({"title":issue.title,"number":issue.number,"state":issue.state,"issue":{"url":issue.html_url,"id":issue.id,"updated_at":issue.updated_at.isoformat()+"+00:00","created_at":issue.created_at.isoformat()+"+00:00","title":title,"lat":lat,"lon":lon,"labels":labels,"milestone":issue.milestone.title if issue.milestone else None,"image":image,"data":data,"body":issue.body.encode('utf-8')}}, sort_keys=True)+",\n")
 
     if gjwr:
-        gjwr.write(json.dumps({"type":"Feature","geometry":{"type":"Point","coordinates":[lon,lat]},"properties":{"title":issue.title,"number":issue.number,"state":issue.state,"url":issue.html_url,"id":issue.id,"updated_at":issue.updated_at.isoformat()+"+00:00","created_at":issue.created_at.isoformat()+"+00:00","labels":eval(labels) if labels else None,"milestone":issue.milestone.title if issue.milestone else None,"image":image,"data":data,"body":issue.body.encode('utf-8')}}, sort_keys=True)+",\n")
+        gjwr.write(json.dumps({"type":"Feature","geometry":{"type":"Point","coordinates":[lon,lat]},"properties":{"title":issue.title,"number":issue.number,"state":issue.state,"url":issue.html_url,"id":issue.id,"updated_at":issue.updated_at.isoformat()+"+00:00","created_at":issue.created_at.isoformat()+"+00:00","labels":labels,"milestone":issue.milestone.title if issue.milestone else None,"image":image,"data":data,"body":issue.body.encode('utf-8')}}, sort_keys=True)+",\n")
 
 if jwr:
     jwr.write("]")
