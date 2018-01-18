@@ -58,6 +58,7 @@ p.dichiarazione {
                                         <div class="row"> <div class="col-md-2">Creato:</div> <div class="col-md-10"> {{page.issue.created_at | italianDate}} </div> </div>
                                         <div class="row"> <div class="col-md-2">Aggiornato:</div> <div class="col-md-10"> {{page.issue.updated_at | italianDate}} </div> </div>
                                         <div class="row"> <div class="col-md-2">Tag:</div> <div class="col-md-10"> {{tags | split: "|" | join: ", "}} </div> </div>
+                                        <div class="row"> <div class="col-md-2">Link:</div> <div class="col-md-10"> <a href="{{page.issue.url}}">{{page.issue.url}}</a></div> </div>
                                 </div>
                         </div>
                 </div>
